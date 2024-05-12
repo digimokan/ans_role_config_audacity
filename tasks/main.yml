@@ -1,0 +1,7 @@
+- name: "Install the 'audacity' application"
+  ansible.builtin.package:
+    name: audacity
+    state: present
+  become: true
+  become_user: root
+
