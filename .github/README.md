@@ -53,6 +53,7 @@ Install and configure the Audacity audio track editor.
        - name: "Install and configure the Audacity audio track editor"
          ansible.builtin.include_role:
            name: ans_role_config_audacity
+           public: true
    ```
 
 ## Role Options
