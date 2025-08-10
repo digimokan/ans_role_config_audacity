@@ -1,0 +1,3 @@
+# main command to run to execute audacity
+audacity_main_cmd: 'audacity'
+

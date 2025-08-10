@@ -11,6 +11,7 @@ Install and configure the Audacity audio track editor.
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
+* [Role Options](#role-options)
 * [Contributing](#contributing)
 
 ## Purpose
@@ -53,6 +54,12 @@ Install and configure the Audacity audio track editor.
          ansible.builtin.include_role:
            name: ans_role_config_audacity
    ```
+
+## Role Options
+
+Vars defined by this role, exported with `public: true`, for use in other roles:
+
+  * [export](../defaults/main/export/main.yml)
 
 ## Contributing
 
